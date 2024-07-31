@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <title>The Seat Selector</title>
+</head>
+<body>
+
+    <div id="head"><h1>Welcome To the Seat Selector</h1>
+    </div>
+
+    <div id="numberofseats">   
+    <label for="GuestNumbs" style="font-weight: bold;">Choose the number of seats:</label>
+    <select id="GuestNumbs"  onchange="getNumber()">
+        <option selected disabled>Choose Number</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select></div>
+    <br>
+    <br>
+        
+        <div id="moviechoice">
+            <label for="movie"  style="font-weight: bold;">Choose the number of seats:</label>
+            <select id="movie"  onchange="getMovie()">
+                <option selected disabled>Choose Movie</option>
+                <option value="intersteller">Intersteller</option>
+                <option value="oppenheimer">Oppenheimer</option>
+                <option value="tintin">TinTin</option>
+                <option value="a quiet place">A Quiet Place</option>
+                <option value="lord of the rings">Lord Of the Rings</option>
+            </select>
+        </div>
+        <br>
+        <br>
+
+    <div id="theatre">
+        <div id="screen"></div>
+        <br>
+        <div id="seats">
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat"  onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+            <div class="seat" onclick="changeSeats(this)"></div>
+        </div>
+        
+    </div>
+
+    <div id="bttnDiv"><button id="registerBttn" onclick="displayResponse()">Book Your Seats</button></div>
+    <br>
+    <br>
+
+    <h2 id="response"></h2>
+
+    <br>
+
+    <p>&copy;2024 Houssam El Dine Khaled</p>
+
+
+    <script src="script.js"></script>
+
+
+    
+</body>
+</html>
